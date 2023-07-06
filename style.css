@@ -1,0 +1,29 @@
+body {
+  font-family: Tahoma, 'sans-serif';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+}
+
+.header ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  color: white;
+  background-color: #1F2937;
+  text-align: center
+}
