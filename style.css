@@ -41,3 +41,20 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.info-header {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  text-align: center;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 2px solid red;
+}
+
+.info {
+  border: 2px solid red;
+}
