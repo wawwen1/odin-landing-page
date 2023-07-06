@@ -31,7 +31,7 @@ a {
 .hero-container {
   display: flex;
   border: 2px solid red;
-  
+  flex: 1;
 }
 
 .hero-image {
@@ -53,8 +53,27 @@ a {
   display: flex;
   justify-content: space-evenly;
   border: 2px solid red;
+  flex: 1;
 }
 
 .info {
   border: 2px solid red;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  text-align: center;
+  flex: 1;
+}
+
+.action-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.action {
+  background-color: blue;
+  width: 50%;
+  display: flex;
+  justify-content: center;
 }
