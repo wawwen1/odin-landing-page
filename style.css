@@ -27,3 +27,17 @@ a {
   background-color: #1F2937;
   text-align: center
 }
+
+.hero-container {
+  display: flex;
+  border: 2px solid red;
+  
+}
+
+.hero-image {
+  border: 2px solid red;
+  min-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
