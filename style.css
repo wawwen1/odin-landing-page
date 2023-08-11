@@ -129,24 +129,26 @@ h2 {
 }
 
 .action-container {
-  border: 2px solid red;
-  min-width: 300px;
+  border-radius: 8px;
   margin: 50px auto;
-  
+  padding: 0 50px;
+  gap: 32px;
+  width: 500px;
   
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: blue;
+  background-color: #3882F6;
+  box-sizing: border-box;
 }
 
 .action {
   color: white;
   border: 2px solid red;
-  margin-left: 40px;
+  width: 100%
 }
 
-h4 {
+h3 {
   margin-bottom: 0px;
 }
 
@@ -154,8 +156,14 @@ h4 {
   margin-top: 0px;
 }
 
-.action-container .signup {
-  border: 5px solid red;
-  border-radius: 8px;
-  padding: 5px 25px;
+.action-container button {
+  font-weight: bold;
+  color: white;
+  border: 2px solid white;
+  background-color: #3882F6;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  
+  
 }
